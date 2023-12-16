@@ -196,7 +196,7 @@ int scan_target(s_host *config_start, e_host *config_end, p_scan *config) {
     b3 = config_end->three,  
     b4 = config_end->four;
 
-    int thread_num_pr = (255);
+    int thread_num_pr = (2048);
 
     pthread_t thread[thread_num_pr];
     
