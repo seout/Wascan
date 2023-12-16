@@ -12,4 +12,3 @@ build:
 
 	rm -rf config strfc
 
-	clear
