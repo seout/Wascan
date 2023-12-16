@@ -19,6 +19,8 @@
 
 #define SIZE_BLOCK 1024
 
+static int count_threads = 0;
+
 typedef struct {
     char *ports;
     int port;
