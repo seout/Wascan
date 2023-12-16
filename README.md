@@ -1,4 +1,6 @@
-[ WAScan (W)eb (A)pplication (S)canner ]
+[𝐖𝐚𝐬𝐜𝐚𝐧]  
+
+(🅆)eb (🄰)pplication (🅂)canner
 
 This application is designed to scan web resources to identify open ports.
 
