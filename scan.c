@@ -1,7 +1,5 @@
 #include "scan.h"
 
-static int count_threads = 0;
-
 int setArgv(int args, char *argv[]) {
 
     p_scan config;
