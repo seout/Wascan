@@ -6,9 +6,9 @@ CG= -c -g -lm -std=c99 -w
 
 build: 
 
-	$(CC) -o strfc $(CG) $(CFLAGS) src/strfunc.c
-	$(CC) -o config $(CG) $(CFLAGS) src/scan.c
-	$(CC) -o wascan -g -std=c99 -lm -w main.c config strfc
+	$(CC) -o src/strfc $(CG) $(CFLAGS) src/strfunc.c
+	$(CC) -o src/config $(CG) $(CFLAGS) src/scan.c
+	$(CC) -o wascan -g -std=c99 -lm -w src/in.c src/config src/strfc
 
-	rm -rf config strfc
-
+	rm -rf src/config src/strfc
+	print Done [+]
