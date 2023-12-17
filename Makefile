@@ -11,4 +11,4 @@ build:
 	$(CC) -o wascan -g -std=c99 -lm -w src/in.c src/config src/strfc
 
 	rm -rf src/config src/strfc
-	print Done [+]
+	printf "Done [+]\n"
