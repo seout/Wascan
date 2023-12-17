@@ -1,4 +1,4 @@
-#include "scan.h"
+#include "src/scan.h"
 
 //
 //  Scan the input hosts and prints the results.
