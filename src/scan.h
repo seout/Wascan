@@ -56,15 +56,12 @@ typedef struct {
     
 } e_host;
 
-extern int     in_main_thread    (    p_args *                      );
-
-extern int     setArgv           (int          ,     char *[]       );
+extern int     scanning          (p_args *                          );
+extern int     in_main_thread    (p_args *                          );
+extern int     setArgv           (int,char *[]                      );
 
 extern int     getParams         (int, char *[],struct params_scan *);
-extern int     scan_target       (s_host*, e_host*,  p_scan*        );
+extern int     scan_target       (s_host*, e_host*,p_scan*          );
 
-extern int     scanning          (p_args *                          );
-
+extern int     lensplit          (char *,char                       );
 extern void    logo              (                                  );
-
-extern int     lensplit          (char *, char                      );
