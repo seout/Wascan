@@ -12,3 +12,4 @@ To compile, type: make
 
 Example:    ./wascan -p 22,80,554,443 -h 1.1.1.1-1.1.1.255
 
+<img width="722" alt="Screenshot 2024-02-02 at 17 20 13" src="https://github.com/seout/Wascan/assets/113185077/68e4a0d1-a806-4960-bd5c-f717c6dde329">
