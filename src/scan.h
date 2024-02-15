@@ -40,23 +40,24 @@ typedef struct params_scan {
 
 typedef struct {
 
-    u_int64_t one;
-    u_int64_t two;
-    u_int64_t three;
-    u_int8_t four;
+    u_int16_t one;
+    u_int16_t two;
+    u_int16_t three;
+    u_int16_t four;
 
 } s_host;
 
 typedef struct {
 
-    u_int8_t one;
-    u_int8_t two;
-    u_int8_t three;
-    u_int8_t four;
+    u_int16_t one;
+    u_int16_t two;
+    u_int16_t three;
+    u_int16_t four;
     
 } e_host;
 
 extern int     scanning          (p_args *                          );
+
 extern int     in_main_thread    (p_args *                          );
 extern int     setArgv           (int,char *[]                      );
 
